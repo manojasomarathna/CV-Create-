@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chamindu Chamodya | Software Engineer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Chamindu <span class="logo-star">✦</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-avatar-wrap">
+          <div class="hero-avatar-ring"></div>
+          <div class="hero-avatar">
+            <img src="Screenshot (532).png" alt="Chamindu Chamodya"/>
+          </div>
+          <div class="avail-badge"><span class="avail-dot"></span> Available for work</div>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/chamindu12" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/chamindu-chamodya-b35504287" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:chaminduchamodya@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-text">
+        <div class="hero-tag"><i class="fas fa-map-marker-alt"></i> Galle, Sri Lanka</div>
+        <h1>Hi, I'm <span class="name-highlight">Chamindu</span><br/>Chamodya</h1>
+        <div class="typing-wrap">
+          <span class="typing-prefix">I build </span>
+          <span class="typing-text" id="typing"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-bio">Software Engineering undergraduate with a passion for building scalable, user-centric applications. Experienced in full-stack web, mobile development, and backend systems.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num" data-target="3">0</span><span class="stat-plus">+</span>
+        <p>Projects</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="15">0</span><span class="stat-plus">+</span>
+        <p>Technologies</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="1">0</span><span class="stat-plus">+</span>
+        <p>Years Experience</p>
+      </div>
+    </div>
+    <div class="scroll-down"><i class="fas fa-chevron-down"></i></div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <p class="section-label">What I know</p>
+      <h2 class="section-title">Technical Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-code"></i></div>
+        <h3>Programming Languages</h3>
+        <p>Java, C, C++, C#, Python</p>
+        <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+        <span class="skill-pct">85%</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-globe"></i></div>
+        <h3>Web Development</h3>
+        <p>HTML, CSS, SCSS, JavaScript, TypeScript, React.js</p>
+        <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+        <span class="skill-pct">80%</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-server"></i></div>
+        <h3>Backend Development</h3>
+        <p>Spring Boot, Node.js, Express</p>
+        <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+        <span class="skill-pct">75%</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile Development</h3>
+        <p>Flutter, Android Studio</p>
+        <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+        <span class="skill-pct">78%</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h3>Database Management</h3>
+        <p>MySQL, SQLite, MongoDB</p>
+        <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+        <span class="skill-pct">80%</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+        <h3>Tools & DevOps</h3>
+        <p>Git, GitHub, Postman, Unix, Linux, VirtualBox</p>
+        <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+        <span class="skill-pct">70%</span>
+      </div>
+    </div>
+
+    <div class="section-header" style="margin-top:72px">
+      <p class="section-label">Who I am</p>
+      <h2 class="section-title">Qualities</h2>
+    </div>
+    <div class="qualities">
+      <span><i class="fas fa-lightbulb"></i> Problem-solving</span>
+      <span><i class="fas fa-sync-alt"></i> Adaptability</span>
+      <span><i class="fas fa-users"></i> Teamwork</span>
+      <span><i class="fas fa-search"></i> Attention to detail</span>
+      <span><i class="fas fa-clock"></i> Time management</span>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="alt-bg">
+    <div class="section-header">
+      <p class="section-label">My background</p>
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <span class="timeline-date">Present</span>
+            <span class="timeline-badge">Current</span>
+          </div>
+          <h3>BSc in Software Engineering</h3>
+          <p><i class="fas fa-university"></i> National Institute of Business Management, Colombo 07</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <span class="timeline-date">2022 – 2023</span>
+          </div>
+          <h3>Diploma in Software Engineering</h3>
+          <p><i class="fas fa-university"></i> National Institute of Business Management, Colombo 07</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class="fas fa-school"></i></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <span class="timeline-date">2017 – 2019</span>
+          </div>
+          <h3>G.C.E Advanced Level – Physical Science</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Siridhamma College, Galle</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class="fas fa-school"></i></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <span class="timeline-date">2010 – 2016</span>
+          </div>
+          <h3>G.C.E Ordinary Level</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Siridhamma College, Galle</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-header" style="margin-top:72px">
+      <p class="section-label">Achievements</p>
+      <h2 class="section-title">Certificates</h2>
+    </div>
+    <div class="cert-list">
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+        <div><p>UNIX Getting Started</p><small>Oracle</small></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-database"></i></div>
+        <div><p>Oracle SQL – A Complete Introduction</p><small>Oracle</small></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+        <div><p>Introduction to Azure</p><small>Microsoft Learn · 2024</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header">
+      <p class="section-label">What I've built</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-brain"></i></div>
+          <span class="project-status active">Active</span>
+        </div>
+        <span class="project-year">2024 – Present</span>
+        <h3>Vibes Net</h3>
+        <p class="project-sub">Mental Health Support Mobile Application</p>
+        <p>A mobile application addressing mental health challenges through technology. Features mood tracking, guided meditations, AI-powered chatbot, anonymous forums, and professional counseling integration.</p>
+        <div class="tech-tags">
+          <span>Flutter</span><span>Firebase</span><span>Node.js</span><span>Python</span><span>MySQL</span><span>Figma</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-utensils"></i></div>
+          <span class="project-status done">Completed</span>
+        </div>
+        <span class="project-year">2023 – 2024</span>
+        <h3>Bite Blitz</h3>
+        <p class="project-sub">Food Ordering Mobile Application</p>
+        <p>A mobile application to streamline food ordering for customers and restaurants. Features menu browsing, order customization, secure payments, and real-time order tracking.</p>
+        <div class="tech-tags">
+          <span>Java</span><span>XML</span><span>SQLite</span><span>Android Studio</span><span>Figma</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-chair"></i></div>
+          <span class="project-status done">Completed</span>
+        </div>
+        <span class="project-year">2022 – 2023</span>
+        <h3>Seat Easy</h3>
+        <p class="project-sub">Seat Booking Web Application</p>
+        <p>A C++ program to automate seat reservations and optimize booking processes. Implemented seat availability checking and real-time booking updates using MVC architecture.</p>
+        <div class="tech-tags">
+          <span>C++</span><span>HTML</span><span>CSS</span><span>MySQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="alt-bg">
+    <div class="section-header">
+      <p class="section-label">Where I've worked</p>
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="exp-card">
+      <div class="exp-icon"><i class="fas fa-laptop-code"></i></div>
+      <div class="exp-info">
+        <div class="exp-top">
+          <h3>Web Developer</h3>
+          <span class="exp-badge">2023</span>
+        </div>
+        <p class="exp-company"><i class="fas fa-building"></i> Pixelz Software Company</p>
+        <p class="exp-desc">Developed and maintained web applications, collaborated with design and backend teams to deliver high-quality software solutions.</p>
+      </div>
+    </div>
+
+    <div class="section-header" style="margin-top:72px">
+      <p class="section-label">Beyond coding</p>
+      <h2 class="section-title">Extracurricular Activities</h2>
+    </div>
+    <div class="activities-grid">
+      <div class="activity-card">
+        <div class="activity-icon"><i class="fas fa-baseball-ball"></i></div>
+        <div>
+          <p>Vice Captain – Baseball Team</p>
+          <small>Siridhamma College · 2017–2019</small>
+        </div>
+      </div>
+      <div class="activity-card">
+        <div class="activity-icon"><i class="fas fa-fist-raised"></i></div>
+        <div>
+          <p>Member – Karate Team</p>
+          <small>Siridhamma College · 2013–2017</small>
+        </div>
+      </div>
+      <div class="activity-card">
+        <div class="activity-icon"><i class="fas fa-flask"></i></div>
+        <div>
+          <p>Member – Science Society</p>
+          <small>Siridhamma College · 2013–2017</small>
+        </div>
+      </div>
+      <div class="activity-card">
+        <div class="activity-icon"><i class="fas fa-star"></i></div>
+        <div>
+          <p>Senior Prefect</p>
+          <small>Siridhamma College · 2017–2019</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-header" style="margin-top:72px">
+      <p class="section-label">Personal</p>
+      <h2 class="section-title">Interests</h2>
+    </div>
+    <div class="qualities">
+      <span><i class="fas fa-film"></i> Movies & TV Series</span>
+      <span><i class="fas fa-mountain"></i> Hiking</span>
+      <span><i class="fas fa-music"></i> Music</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <p class="section-label">Get in touch</p>
+      <h2 class="section-title">Contact Me</h2>
+    </div>
+    <div class="contact-outer">
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Let's work together</h3>
+          <p class="contact-intro">I'm currently open to new opportunities. Whether you have a project in mind or just want to say hi, my inbox is always open!</p>
+          <div class="contact-item"><i class="fas fa-envelope"></i><a href="mailto:chaminduchamodya@gmail.com">chaminduchamodya@gmail.com</a></div>
+          <div class="contact-item"><i class="fas fa-phone"></i><a href="tel:+94770414606">+94 770 414 606</a></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Galle, Sri Lanka</span></div>
+          <div class="contact-item"><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/chamindu-chamodya-b35504287" target="_blank">linkedin.com/in/chamindu-chamodya</a></div>
+          <div class="contact-item"><i class="fab fa-github"></i><a href="https://github.com/chamindu12" target="_blank">github.com/chamindu12</a></div>
+        </div>
+        <div class="contact-divider-v"></div>
+        <div class="contact-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" placeholder="John Doe" required/>
+              </div>
+              <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" placeholder="john@example.com" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" placeholder="Project Inquiry" required/>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Message sent successfully!</p>
+          </form>
+        </div>
+      </div>
+
+      <div class="references-section">
+        <h3 class="ref-title">References</h3>
+        <div class="ref-grid">
+          <div class="ref-card">
+            <div class="ref-avatar">VP</div>
+            <div>
+              <strong>Mr. R. G. Vimukthi Pathirana</strong>
+              <p>Course Director / Consultant<br/>School of Computing & Engineering, NIBM, Colombo 07</p>
+              <p class="ref-contact"><i class="fas fa-phone"></i> +94 710 340 367 &nbsp;·&nbsp; <i class="fas fa-envelope"></i> vimukthi@nibm.lk</p>
+            </div>
+          </div>
+          <div class="ref-card">
+            <div class="ref-avatar">HK</div>
+            <div>
+              <strong>Hasitha Heshan Kapuduwa</strong>
+              <p>Software Architect, Hatchyard PVT LTD</p>
+              <p class="ref-contact"><i class="fas fa-phone"></i> +94 715 634 626 &nbsp;·&nbsp; <i class="fas fa-envelope"></i> hasitha@hatchyard.io</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Chamindu <span class="logo-star">✦</span></div>
+      <p>© 2025 Chamindu Chamodya. Crafted with <i class="fas fa-heart" style="color:#ef4444"></i></p>
+      <div class="footer-social">
+        <a href="https://github.com/chamindu12" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/chamindu-chamodya-b35504287" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:chaminduchamodya@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
